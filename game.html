@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="game.css" />
+    <title>BubbleBoom</title>
+  </head>
+  <body>
+    <div class="background" id="bubbles-container">
+      <div id="score-box"><span>score:</span><span id="score">0</span></div>
+      <div id="timer-box">
+        <span>time:</span><span id="timer">60</span><span> sec</span>
+      </div>
+    </div>
+    <div class="background flex-centered" id="game-over">
+      <div class="modal flex-centered" id="game-over-modal">
+        <h2>Game Over</h2>
+        <p>
+          You have scored <span id="final-score">0</span>points. Prove yourself
+          by playing again. This was made by SIDDHARTH
+        </p>
+        <div class="button instructions-button.">Play Again</div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
